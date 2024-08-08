@@ -19,7 +19,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const Education = [
+export const Educations = [
   {
     year: "2022-2024",
     degree: "Master's in Computer Science",
