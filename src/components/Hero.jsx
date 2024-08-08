@@ -5,7 +5,7 @@ import profilePic from '../assets/profile-photo.png'
 
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className=' border-neutral-900 pb-4 lg:mb-40 h-full'>
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
@@ -19,7 +19,7 @@ const Hero = () => {
                     {para}
                 </p>
 
-                <div className="flex lg:flex-row flex-col items-center space-x-0 space-y-4 lg:space-y-0 lg:space-x-4 mt-8">
+                <div className="flex flex-row items-center space-x-4 mt-4">
                         <div className="bg-gray-200 rounded-full p-3">
                             <FaLinkedin className="text-2xl text-blue-600" />
                         </div>
@@ -32,19 +32,21 @@ const Hero = () => {
                         <div className="bg-gray-200 rounded-full p-3">
                             <FaEnvelope className="text-2xl text-red-500" />
                         </div>
-                    </div>
+                </div>
 
 
 
             </div>
             </div>
-
-            <div className='w-full lg:w-1/2 lg:p-8 '>
+        
+            {/*<div className='w-full lg:w-1/2 lg:p-8 mt-10'>
             <div className="flex justify-center">
-                <img src={profilePic} alt="GM" className='w-50 h-50 lg:w-72 lg:h-85 object-cover' />
+                <img src={profilePic} alt="GM" className='w-48 h-auto lg:w-72 lg:h-85' />
             </div>
 
-            </div>
+            </div>*/}
+
+            
         
         </div>
 
