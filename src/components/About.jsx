@@ -4,7 +4,7 @@ import { ABOUT_TEXT } from '../constants'
 
 const About = () => {
   return (
-    <div id='about' className='border-b border-neutral-900 pb-4 lg:mt-20'>
+    <div id='about' className='border-b border-neutral-900 lg:mt-20 pb-40'>
         <h1 className='my-20 text-center text-4xl'>
             About 
 

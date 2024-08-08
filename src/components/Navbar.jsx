@@ -12,13 +12,13 @@ const Navbar = () => {
         <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="logo" className='h-8 pl-5'/>
         </div>
-        <div className='m-8 flex justify-center items-center gap-4 text-2xl'>
+        {/*<div className='m-8 flex justify-center items-center gap-4 text-2xl'>
         <a href="#about" className="text-2xl hover:text-cyan-300 transition duration-300">About</a>
             <FaLinkedin/>
             <FaGithub/>
             <FaFile/>
             <IoMdMail/>
-        </div>
+        </div>*/}
     </nav>
   )
 }
