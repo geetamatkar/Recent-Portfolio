@@ -13,7 +13,7 @@ const Education = () => {
                     </div>
 
                     <div className='w-full max-w-xl lg:w-3/4'>
-                       <h6 className='mb-2 font-semibold'>{edu.degree} -{" "} 
+                       <h6 className='mb-2 font-semibold'>{edu.degree} {" "} 
                         
                        </h6>
                        <span className='text-sm text-purple-200'>{edu.university}</span>

@@ -2,6 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import amazonclone from "../assets/projects/amazon-clone.png";
+import aiweb from "../assets/projects/AI-product.png";
+import netflix from "../assets/projects/Netflix-clone.png";
+import finance from "../assets/projects/finance-dashboard.png";
+import social from "../assets/projects/social-network.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -32,34 +37,41 @@ export const Educations = [
   },
 ]
 
-export const PROJECTS = [
+export const Project_List = [
   {
     title: "E-Commerce Website",
-    image: project1,
+    image: amazonclone,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "AI Powered 3-D Product Website",
+    image: aiweb,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Netflix Clone",
+    image: netflix,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
     title: "Blogging Platform",
-    image: project4,
+    image: social,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  },
+  {
+    title: "Finance Dashboard",
+    image: finance,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
 ];
 
